@@ -60,4 +60,6 @@ public class InfoForMe {
         f += 10; // равно f = f + 10;
         System.out.println(f);
     }*/
+
+
 }

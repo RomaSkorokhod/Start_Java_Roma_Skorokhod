@@ -1,41 +1,22 @@
 package lesson2;
 
 public class Practice {
-    /* public static void main(String[] args) {
-         int a = 3;
-         int b = 8;
-         int t = 5;
-         int resultOfSum = a + b + t;
-         int resultOfx = a * (b - t);
-         System.out.println(resultOfSum);
-         System.out.println(resultOfx);
-   public static void main(String[] args) {
-       int x, y, r, e;
-       x = 3;
-       y = 7;
-       r = 9;
-       e = x + y;
-       System.out.println(e);
-       System.out.println(r-x);
-   }
     public static void main(String[] args) {
-        int a = 7;
-        int b = 9;
-        a = a + b; //16
-        b = a - b; //7
-        a = a - b; //9
-        System.out.println(a);
-        System.out.println(b);*/
-
-    public static void main(String[] args) {
-
-        double t = 4.3;
-        int u = 9;
-        float p = 2.25F;
-        float e = 2.75F;
-        System.out.println(p+e+t-u);
-
-
+       /* int x = 5;
+        int y = 4;
+        x = x++ - y++ + ++x;
+        y+=3;
+        int z = --x + --y;
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+*/
+        System.out.println(true != false);
+        System.out.println(true == false);
+        System.out.println(false == false);
+        System.out.println(false != true);
+        System.out.println(!false);
+        System.out.println(!true);
 
     }
 }
