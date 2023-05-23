@@ -1,9 +1,10 @@
-package lesson4;
+package lesson4.scanner;
 
-public class Scanner {
-    public class Scanner_example {
-        public static void main(String[] args) {
-            java.util.Scanner input = new java.util.Scanner(System.in);
+import java.util.Scanner;
+
+public class Scanner_example {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
       /*  System.out.println("Введите ваше число:");
         int x = input.nextInt();
         System.out.println("Ваше введенное число равно: "+x);
@@ -24,9 +25,7 @@ public class Scanner {
     /*    System.out.println("Введите ваше тескт:");
         String s3 = input.nextLine();
         System.out.println("Ваш введенный текст: "+s3);*/
-            String in;
+        String in;
 
-        }
     }
-
 }

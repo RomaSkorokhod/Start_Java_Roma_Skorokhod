@@ -1,4 +1,4 @@
-package lesson4;
+package lesson4.formatter;
 
 import java.util.Date;
 
@@ -33,7 +33,7 @@ public class Formatter {
 
 
         //%d Для работы с целочисленными типами данных byte, int, short, long
-        // System.out.printf("This is format '%d' string for example",345);
+       // System.out.printf("This is format '%d' string for example",345);
 
 
         //%f Для работы с вещественными типами данных float, double
