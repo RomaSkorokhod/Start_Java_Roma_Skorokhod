@@ -17,10 +17,12 @@ public class Task_4 {
        if(x<7){
            System.out.println("Ваше число: "+x);
            System.out.println("Дане число меньше ніж 7");
-       } else {
+       } else if (x>7){
            System.out.println("Ваше число: "+x);
            System.out.println("Дане число більше ніж 7");
-
+       } else {
+           System.out.println("Ваше число: "+x);
+           System.out.println("Дане число дорівнює 7");
        }
    }
 }
