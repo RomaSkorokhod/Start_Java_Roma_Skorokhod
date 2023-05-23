@@ -9,11 +9,11 @@ public class Task_2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Введіть довжину першої сторони трикутника");
-        int a = in.nextInt();
+        double a = in.nextInt();
         System.out.println("Введіть довжину другої сторони трикутника");
-        int b = in.nextInt();
+        double b = in.nextInt();
         System.out.println("Введіть довжину третьої сторони трикутника");
-        int c = in.nextInt();
+        double c = in.nextInt();
 
         if ((a + b > c) && (a + c > b) && (b + c > a)){
             System.out.println("Із даних сторін ми можемо побудувати трикутник");

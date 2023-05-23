@@ -11,13 +11,13 @@ public class Task_6 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Insert your number1:");
+        System.out.println("Введіть перше число:");
         int number1 = in.nextInt();
 
-        System.out.println("Insert your number2:");
+        System.out.println("Введіть друге число:");
         int number2 = in.nextInt();
 
-        System.out.println("Insert your number2:");
+        System.out.println("Яку математичну дію Ви хочете виконати з даними числами (- або + або % або / або *)?:");
         String action = in.next();
 
 

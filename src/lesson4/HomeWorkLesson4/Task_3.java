@@ -23,6 +23,6 @@ public class Task_3 {
         String actualYear = String.format("%tY", date);
 
         int actualYearInt = Integer.parseInt(actualYear);
-        System.out.println("Ваш возраст равен " + (actualYearInt - yearOfBirth));
+        System.out.println("Ваш вік: " + (actualYearInt - yearOfBirth));
     }
 }

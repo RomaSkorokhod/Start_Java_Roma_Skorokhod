@@ -16,66 +16,66 @@ public class Task_7 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите вашу ОС: LiNux, macOS, Windows");
+        System.out.println("Введіть Вашу ОС: LiNux, macOS, Windows");
         String os = in.nextLine();
         String programm;
         switch (os.toUpperCase()) {
             case ("LINUX"):
-                System.out.println("Введите вашу программу: IntelliJ IDEA, Git, Java");
+                System.out.println("Введіть Вашу програму: IntelliJ IDEA, Git, Java");
                 programm = in.nextLine();
                 switch (programm.toLowerCase()) {
                     case ("intellij"):
-                        System.out.println("Ваша ссылка на intellij, linux");
+                        System.out.println("Ваше посилання на intellij, linux");
                         break;
                     case ("git"):
-                        System.out.println("Ваша ссылка на git, linux");
+                        System.out.println("Ваше посилання на git, linux");
                         break;
                     case ("java"):
-                        System.out.println("Ваша ссылка на java, linux");
+                        System.out.println("Ваше посилання на java, linux");
                         break;
                     default:
-                        System.out.println("Такой программы мы не нашли");
+                        System.out.println("Дану програму ми не знайшли");
                 }
                 break;
             case ("MACOS"):
-                System.out.println("Введите вашу программу: IntelliJ IDEA, Git, Java");
+                System.out.println("Введіть Вашу програму: IntelliJ IDEA, Git, Java");
                 programm = in.nextLine();
                 switch (programm.toLowerCase()) {
                     case ("intellij"):
-                        System.out.println("Ваша ссылка на intellij, macos");
+                        System.out.println("Ваше посилання на intellij, macos");
                         break;
                     case ("git"):
-                        System.out.println("Ваша ссылка на git, macos");
+                        System.out.println("Ваше посилання на git, macos");
                         break;
                     case ("java"):
-                        System.out.println("Ваша ссылка на java, macos");
+                        System.out.println("Ваше посилання на java, macos");
                         break;
                     default:
-                        System.out.println("Такой программы мы не нашли");
+                        System.out.println("Дану програму ми не знайшли");
                 }
 
 
                 break;
             case ("WINDOWS"):
-                System.out.println("Введите вашу программу: IntelliJ IDEA, Git, Java");
+                System.out.println("Введіть Вашу програму: IntelliJ IDEA, Git, Java");
                 programm = in.nextLine();
                 switch (programm.toLowerCase()) {
                     case ("intellij"):
-                        System.out.println("Ваша ссылка на intellij, windows");
+                        System.out.println("Ваше посилання на intellij, windows");
                         break;
                     case ("git"):
-                        System.out.println("Ваша ссылка на git, windows");
+                        System.out.println("Ваше посилання на git, windows");
                         break;
                     case ("java"):
-                        System.out.println("Ваша ссылка на java, windows");
+                        System.out.println("Ваше посилання на java, windows");
                         break;
                     default:
-                        System.out.println("Такой программы мы не нашли");
+                        System.out.println("Дану програму ми не знайшли");
                 }
 
                 break;
             default:
-                System.out.println("Такой ОС не найдено");
+                System.out.println("Дану ОС не знайдено");
         }
     }
 }
