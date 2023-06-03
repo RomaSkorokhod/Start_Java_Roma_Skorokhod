@@ -10,7 +10,7 @@ public class Task1 {
         Конечную сумму программа должна вывести в консоль после завершения цикла.*/
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int result = 0;
+        String result = "";
         while (true) {
             System.out.println("Введите ваше число(для остановки напишити FINAL");
             String input = scanner.nextLine();

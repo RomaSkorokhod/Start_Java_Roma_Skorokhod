@@ -22,10 +22,10 @@ public class Scanner_example {
         System.out.println("Ваш введенный текст: "+s1);
         System.out.println("Ваш введенный текст: "+s2);*/
 
-    /*    System.out.println("Введите ваше тескт:");
+        /*System.out.println("Введите ваше тескт:");
         String s3 = input.nextLine();
-        System.out.println("Ваш введенный текст: "+s3);*/
-        String in;
+        System.out.println("Ваш введенный текст: "+s3);
+        String in;*/
 
     }
 }

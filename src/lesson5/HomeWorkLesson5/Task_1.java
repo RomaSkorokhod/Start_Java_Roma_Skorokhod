@@ -10,12 +10,15 @@ public class Task_1 {
      одним предложением.*/
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         while (true) {
             System.out.println("Вводьте будь-які слова. Для зупинки введіть STOP");
             String input = scanner.nextLine();
             if (input.equals("STOP")) {
                 break;
             }
+
         }
+
     }
 }
