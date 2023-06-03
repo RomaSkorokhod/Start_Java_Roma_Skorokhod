@@ -1,5 +1,7 @@
 package lesson5.HomeWorkLesson5;
 
+import java.util.Scanner;
+
 public class Task_3 {
   /*  Написать проограмму, условно для склада приема металла. Представим, что склад
     может хранить определенный вес металла. Пользователь вводит с
@@ -11,4 +13,28 @@ public class Task_3 {
     Если пользователь сдает металл весом меньше чем 5, программа тоже предупреждает
     о невозможности приемки такого малого веса. Программа завершается, когда
     место на складе закончилось.*/
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Вкажіть вагу, яка може зберігатися на складі:");
+        int maxWeight = scanner.nextInt();
+
+        while (maxWeight >= 0) {
+            System.out.println("Вкажіть вагу, яку Ви збираєтесь здати на склад:");
+            int weight = scanner.nextInt();
+            if (weight < 5) {
+                System.out.println("Склад не приймає метал меньше 5кг");
+            } else if (maxWeight - weight < 0) {
+                System.out.println("На таку вагу місця на складі не буде");
+            } else if (maxWeight - weight == 0) {
+                System.out.println("Склад заповнений. Більше не приймаємо!");
+                break;
+            } else if (maxWeight - weight <= 5) {
+                System.out.println("Недопустимий залишок на складі");
+            } else {
+                maxWeight = maxWeight - weight;
+                System.out.println(maxWeight + " кг ще можете здати на склад");
+            }
+        }
+    }
 }
