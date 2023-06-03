@@ -10,14 +10,13 @@ public class Practice {
         first.concat(". Some additional.");
         System.out.println(first);*/
 
-    /*    String input = "Введіть Ваш вік";
+        String input = "Введіть Ваш вік";
         int myOld =  18;
         String word = " для прикладу ";
         String symbol = ": ";
         String newString = input + symbol + myOld + "   Hello";
         System.out.println(newString);
 
-*/
 
     }
 }

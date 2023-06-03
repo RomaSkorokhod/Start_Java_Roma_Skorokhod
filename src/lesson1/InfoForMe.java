@@ -7,4 +7,5 @@ public class InfoForMe {
 
     // комментарий строчный Cntrl + /
     // комментарий блочный Cntrl + Shift + /
+
 }

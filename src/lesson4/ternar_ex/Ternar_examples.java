@@ -2,7 +2,7 @@ package lesson4.ternar_ex;
 
 import java.util.Scanner;
 
-public class Ternar_examples {
+public class  Ternar_examples {
     public static void main(String[] args) {
         //синтаксис:
 
