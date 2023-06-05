@@ -11,8 +11,6 @@ public class HW6Ukr {
         System.out.println("Введи своє ім'я: ");
         String name = input.nextLine();
         System.out.println("Привіт, " + name + "!");
-        String startGame = "Розпочинаємо гру.";
-        System.out.println(startGame);
         String rules = "Правила легкі. Ти повинен вгадати число.";
         System.out.println(rules);
 
