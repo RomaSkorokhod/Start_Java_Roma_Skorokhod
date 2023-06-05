@@ -1,5 +1,6 @@
 package lesson6;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class HomeWorkLesson6 {
@@ -23,20 +24,7 @@ Your number is too small. Please, try again.. Якщо введене число
 Якщо введене число відповідає загаданому, то програма виводить текст: Congratulations, {name}!
 
 Завдання повинно бути виконане за допомогою масиви (НЕ використовуйте інтерфейси List, Set, Map).
-
-
-Необов'язкове завдання просунутої складності:
-
-Перед переходом на наступну ітерацію, програма зберігає введене користувачем число масив.
-Після того, як гравець вгадав загадане число, перед виходом програма виводить на екран текст:
-Your numbers: і показує всі введені гравцем числа, відсортовані від більшого до меншого.
-Після введення чисел користувачем додати перевірку їх коректності.
-Якщо користувач запровадив не число - запитати заново.
-Додайте грі трохи більше сенсу: нехай загадане число буде роком,
-якому відповідає відома подія. Інформація про роки зберігається
-у двовимірному масиві [рік Х подія].
-Програма спочатку вибирає випадковим чином комірку в матриці й виводить на екран:
-When did the World War II begin?*/
+*/
     public static void main(String[] args) {
         String start = "Let the game begin!";
         System.out.println(start);
@@ -48,9 +36,17 @@ When did the World War II begin?*/
         System.out.println(startGame);
         String rules = "You have to guess a number between 0 and 100";
         System.out.println(rules);
-        Scanner input = new Scanner(System.in);
+
+        int[] array = new int [1];
+        Random random = new Random();
+
+
+
+
+
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Input your nuber:");
-        int x = input.nextInt();
+        int x = input.nextInt();*/
     }
 
 
