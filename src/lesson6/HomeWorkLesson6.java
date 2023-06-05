@@ -26,28 +26,48 @@ Your number is too small. Please, try again.. Якщо введене число
 Завдання повинно бути виконане за допомогою масиви (НЕ використовуйте інтерфейси List, Set, Map).
 */
     public static void main(String[] args) {
-        String start = "Let the game begin!";
-        System.out.println(start);
-        Scanner name = new Scanner(System.in);
-        System.out.println("Input your name:");
-        String n = name.next();
-        System.out.println("Hello, "+n +"!");
-        String startGame = "Let start our game!";
-        System.out.println(startGame);
-        String rules = "You have to guess a number between 0 and 100";
-        System.out.println(rules);
 
-        int[] array = new int [1];
-        Random random = new Random();
+            String start = "Let the game begin!";
+            System.out.println(start);
+
+            Scanner input = new Scanner(System.in);
+            System.out.println("Input your name: ");
+
+            String name = input.nextLine();
+            System.out.println("Hello, " + name + "!");
+            String rules = "The rules are easy. You have to guess the number.";
+            System.out.println(rules);
 
 
+            Random random = new Random();
+            int numberToGuess = random.nextInt(100);
+            int numberOfTries = 0;
+            int guess;
+            boolean win = false;
+            System.out.println( "I guessed a number from 0 to 100" );
 
+            while (win == false) {
 
+                System.out.println( "Input number:" );
+                guess = input.nextInt();
 
-        /*Scanner input = new Scanner(System.in);
-        System.out.println("Input your nuber:");
-        int x = input.nextInt();*/
+                numberOfTries++;
+
+                if (guess == numberToGuess) {
+                    win = true;
+                }
+                else if (guess < numberToGuess) {
+                    System.out.println("Your number is too small. Please, try again.");
+                }
+                else if (guess > numberToGuess) {
+                    System.out.println("Your number is too big. Please, try again.");
+                }
+            }
+            System.out.println("\nCongratulations," + name + "!");
+            System.out.println("My number is: " + numberToGuess + ".");
+        }
     }
 
 
-}
+
+
