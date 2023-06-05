@@ -1,5 +1,7 @@
 package lesson6;
 
+import java.util.Scanner;
+
 public class HomeWorkLesson6 {
     /*Масиви
 
@@ -35,4 +37,21 @@ Your numbers: і показує всі введені гравцем числа,
 у двовимірному масиві [рік Х подія].
 Програма спочатку вибирає випадковим чином комірку в матриці й виводить на екран:
 When did the World War II begin?*/
+    public static void main(String[] args) {
+        String start = "Let the game begin!";
+        System.out.println(start);
+        Scanner name = new Scanner(System.in);
+        System.out.println("Input your name:");
+        String n = name.next();
+        System.out.println("Hello, "+n +"!");
+        String startGame = "Let start our game!";
+        System.out.println(startGame);
+        String rules = "You have to guess a number between 0 and 100";
+        System.out.println(rules);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input your nuber:");
+        int x = input.nextInt();
+    }
+
+
 }
