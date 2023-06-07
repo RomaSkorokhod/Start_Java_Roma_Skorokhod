@@ -1,4 +1,4 @@
-package lesson8.HomeWorkLesson8;
+package lesson8.homeWorkLesson8;
 
 public class Task_5 {
    /* Написати програму "стрільба по цілі".

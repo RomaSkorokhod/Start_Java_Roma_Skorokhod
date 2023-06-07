@@ -1,9 +1,14 @@
-package lesson8.HomeWorkLesson8;
+package lesson8.homeWorkLesson8;
 
-public class Task_4 {
+import java.util.Scanner;
+
+public class Task4 {
   /*  Пользователь задает размерность двумерного массива с клавиатуры.
     Массив заполняется случайными числами от 0 до 1000.
     Необходимо создать одномерный массив, состоящий из максимальных значений
     каждого отдельного массива входящего в двумерный.
     Новый полученный массив вывести на экран.*/
+  public static void main(String[] args) {
+      Scanner
+  }
 }
