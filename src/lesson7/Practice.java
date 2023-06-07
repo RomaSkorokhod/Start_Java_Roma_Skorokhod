@@ -1,7 +1,7 @@
 package lesson7;
 
 public class Practice {
-    public static void main(String[] args) {
+ /*   public static void main(String[] args) {
         String[][] name = new String[3][3];
         name[0][0] = "Kostyk";
         name[0][1] = "Schyglyk";
@@ -21,6 +21,8 @@ public class Practice {
         System.out.println(names2[1][1]);
 
     }
+*/
+
 
 
 }
