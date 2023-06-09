@@ -9,6 +9,12 @@ public class Task4 {
     каждого отдельного массива входящего в двумерный.
     Новый полученный массив вывести на экран.*/
   public static void main(String[] args) {
-      Scanner
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("Insert first value");
+      int first = scanner.nextInt();
+      System.out.println("Insert second value");
+      int second = scanner.nextInt();
+      int[][] doubleArray = new int[first][second];
+
   }
 }
