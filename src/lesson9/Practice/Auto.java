@@ -59,4 +59,19 @@ public class Auto {
             System.out.println("Авто колись було нове ");
         }
     }
+
+    @Override
+    public String toString() {
+        String result;
+        if (isNew){
+            result = "Автомобіль новий";
+        } else {
+            result = "Авто колись було нове ";
+        }
+        return "Ім'я автомобіля: " + name + "\n" +
+                "Ціна автомобіля: " + price + "\n" +
+                result;
+
+
+    }
 }

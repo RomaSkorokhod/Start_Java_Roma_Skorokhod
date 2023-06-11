@@ -1,4 +1,6 @@
-package lesson9.homework;
+package lesson9.homeWorkLesson9.Task3;
+
+import lesson9.homeWorkLesson9.Task3.Converter;
 
 public class Main {
     public static void main(String[] args) {

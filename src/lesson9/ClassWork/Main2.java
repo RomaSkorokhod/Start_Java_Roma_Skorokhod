@@ -1,4 +1,7 @@
-package lesson9;
+package lesson9.ClassWork;
+
+import lesson9.ClassWork.Auto;
+import lesson9.ClassWork.Auto2;
 
 public class Main2 {
     public static void main(String[] args) {

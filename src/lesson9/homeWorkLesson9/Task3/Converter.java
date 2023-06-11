@@ -1,4 +1,4 @@
-package lesson9.homework;
+package lesson9.homeWorkLesson9.Task3;
 
 public class Converter {
     public String name;

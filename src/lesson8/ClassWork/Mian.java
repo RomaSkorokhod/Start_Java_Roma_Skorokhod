@@ -1,4 +1,6 @@
-package lesson8;
+package lesson8.ClassWork;
+
+import lesson8.ClassWork.Animal;
 
 public class Mian {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lesson9;
+package lesson9.ClassWork;
 
 public class Auto2 {
     private String name;
