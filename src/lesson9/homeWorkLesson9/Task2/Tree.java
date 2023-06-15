@@ -2,7 +2,7 @@ package lesson9.homeWorkLesson9.Task2;
 
 public class Tree {
     /*Создать класс Tree с перегруженными конструкторами.
-    В классе есть Tree есть поля:
+    В классе Tree есть поля:
     String type; int height, int coutOfsticks, String colour;
 
     Конструктор1 принимающий в параметры String type; int height

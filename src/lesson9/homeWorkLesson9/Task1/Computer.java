@@ -21,4 +21,52 @@ public class Computer {
 
     В отдельном классе создайте объект класса компьютер, и выведите в консоль
     информацию о вашем объекте.*/
+
+    private String name;
+    private int price;
+    private int ram;
+    private int videoCard;
+
+    public Computer(String name, int price, int ram, int videoCard) {
+        this.name = name;
+        this.price = price;
+        this.ram = ram;
+        this.videoCard = videoCard;
+    }
+
+    public Computer() {
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public void setRam(int ram) {
+        this.ram = ram;
+    }
+
+    public int getVideoCard() {
+        return videoCard;
+    }
+
+    public void setVideoCard(int videoCard) {
+        this.videoCard = videoCard;
+    }
 }
