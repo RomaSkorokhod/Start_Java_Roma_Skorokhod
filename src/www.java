@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class www {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+       /* Scanner input = new Scanner(System.in);
         System.out.println("Добрий вечір! \nВас вітає нова гра! \nВведіть Ваше ім'я:");
         String s = input.next();
         System.out.println("Привіт," + s + " !" + "\nДавай розв'яжемо легкий приклад. \nВведи будь-яке число" );
@@ -11,9 +11,23 @@ public class www {
         int y = input.nextInt();
         int z = (x+y);
         System.out.println("Моя відповідь буде: " + z);
-        if (z>100);
-        System.out.println("Нажаль я умію робити додавання тільки до 100");
-        
 
+
+
+    }*/
+
+          Scanner input = new Scanner(System.in);
+        System.out.print("Input some integer ");
+        int x = input.nextInt();
+        if (x < 10) {
+            System.out.println("Your number is: " + x);
+            System.out.println("number is less than 10");
+        } else if (x > 10) {
+            System.out.println("Your number is: " + x);
+            System.out.println("number is more than 10");
+        } else  {
+            System.out.println("Your number is: " + x);
+            System.out.println("number is equals 10");
+        }
     }
 }
