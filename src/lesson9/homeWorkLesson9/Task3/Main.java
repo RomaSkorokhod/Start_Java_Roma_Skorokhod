@@ -10,6 +10,7 @@ public class Main {
         double m = converter.convertToDouble('t');
         String w = converter.converToString("Проверка string");
         System.out.println(x);
+        System.out.println(a);
         System.out.println(m);
         System.out.println(w);
     }
